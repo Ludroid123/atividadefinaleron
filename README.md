@@ -26,6 +26,10 @@ Desenvolver um algoritmo para conversão de celsius para farenheint
 - continuei a segunda parte da edição do readme e instrui meus colegas de como fazer
 - coloquei a parte executada por mim no terminal e dei outro commit mas pelo site dessa vez para edição do readme
 - fiz a terceira e ultima parte da edição do readme
+- finalizei o documento do readme
+- coloquei os erros e soluções
+- commitei a parte final do readme
+
 
 ### Gustavo Kenzo Yokoda
 - Após ser adicionado no projeto fez a configuração basica do gitbash
@@ -39,7 +43,7 @@ Desenvolver um algoritmo para conversão de celsius para farenheint
 - commitou a parte2
 - deu um gitpush
 - (como o computador era de uso próprio nao foi preciso limpar os dados)
-- commmitou as alterações feitas no terminal, adicionando as no readme 
+- commitou as alterações feitas no terminal, adicionando as no readme 
  
 
 ### Felipe Atsushi
@@ -437,3 +441,9 @@ $
 
 ## Observações
 Cada etapa foi realizada por apenas um integrante por vez, respeitando a ordem de commits e a integridade do código.
+## Erros encontrados
+- Foi criado um arquivo Readme.md.bak, devido a uma alteração feita no notepad++
+- os outros erros foram de escrita
+### Como foi concertado
+- o primeiro erro é só excluir o arquivo
+- o segundo tipo, era só reescrever certo
