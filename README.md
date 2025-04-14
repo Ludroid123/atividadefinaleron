@@ -53,7 +53,7 @@ Desenvolver um algoritmo para conversão de celsius para farenheint
 - commitou a parte3
 - deu um gitpush
 - limpou os rastros
-
+- commitou as alterações feitas no terminal, adicionando as no readme 
 
 ## Comandos utilizados
 Todos os comandos foram executados via terminal utilizando chave SSH:
@@ -318,7 +318,122 @@ gustavo@LAPTOP-0PUCHT45 MINGW64 ~/atividadefinaleron (main)
 $
 
 
-### Comandos de beltrano
+### Comandos de Felipe Atsushi Takeuchi Bittencourt
+
+compuni@maker272 MINGW64 ~
+$ git config --global user.name "fepsl"
+
+compuni@maker272 MINGW64 ~
+$ git config --global user.email "seuemail@example.com"
+
+compuni@maker272 MINGW64 ~
+$ git config --global --unset user.email
+
+compuni@maker272 MINGW64 ~
+$ git config --global user.email "felipe.bittencourt@edu.unifil.br"
+
+compuni@maker272 MINGW64 ~
+$ ssh-keygen -t rsa -b 4096 -C "felipe.bittencourt@edu.unifil.br"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/Compuni/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/Compuni/.ssh/id_rsa
+Your public key has been saved in /c/Users/Compuni/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:nQeCBtZOPkMtaOVYCdm02n5EQNvVxVMNGAKyyWn3dAk felipe.bittencourt@edu.unifil.br
+The key's randomart image is:
++---[RSA 4096]----+
+|    +XBo..E..=ooo|
+|   .+*B@.. oo.o .|
+|   ..=%.= o o  . |
+|     ==o = +     |
+|    . .oS + .    |
+|     . .   .     |
+|      . .        |
+|       .         |
+|                 |
++----[SHA256]-----+
+
+compuni@maker272 MINGW64 ~
+$ eval "$(ssh-agent -s)"
+Agent pid 1803
+
+compuni@maker272 MINGW64 ~
+$ ssh-add ~/.ssh/id_rsa
+Identity added: /c/Users/Compuni/.ssh/id_rsa (felipe.bittencourt@edu.unifil.br)
+
+compuni@maker272 MINGW64 ~
+$ clip < ~/.ssh/id_rsa.pub
+
+compuni@maker272 MINGW64 ~
+$ ssh -T git@github.com
+Hi fepsl! You've successfully authenticated, but GitHub does not provide shell access.
+
+compuni@maker272 MINGW64 ~
+$ git clone git@github.com:Ludroid123/atividadefinaleron.git
+Cloning into 'atividadefinaleron'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+compuni@maker272 MINGW64 ~
+$ cd atividadefinaleron
+
+compuni@maker272 MINGW64 ~/atividadefinaleron (main)
+$ git pull origin main
+remote: Enumerating objects: 18, done.
+remote: Counting objects: 100% (18/18), done.
+remote: Compressing objects: 100% (15/15), done.
+remote: Total 16 (delta 5), reused 5 (delta 1), pack-reused 0 (from 0)
+Unpacking objects: 100% (16/16), 6.51 KiB | 60.00 KiB/s, done.
+From github.com:Ludroid123/atividadefinaleron
+ * branch            main       -> FETCH_HEAD
+   c953009..a12c115  main       -> origin/main
+Updating c953009..a12c115
+Fast-forward
+ README.md     | 304 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ README.md.bak |   1 +
+ eronfinal.por |  12 +++
+ 3 files changed, 316 insertions(+), 1 deletion(-)
+ create mode 100644 README.md.bak
+ create mode 100644 eronfinal.por
+
+compuni@maker272 MINGW64 ~/atividadefinaleron (main)
+$ git add .
+
+compuni@maker272 MINGW64 ~/atividadefinaleron (main)
+$ git commit -m "parte3"
+[main fc12e7b] parte3
+ 1 file changed, 8 insertions(+)
+
+compuni@maker272 MINGW64 ~/atividadefinaleron (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 405 bytes | 202.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:Ludroid123/atividadefinaleron.git
+   a12c115..fc12e7b  main -> main
+
+compuni@maker272 MINGW64 ~/atividadefinaleron (main)
+$ git config --global --unset user.name
+
+compuni@maker272 MINGW64 ~/atividadefinaleron (main)
+$ git config --global --unset user.email
+
+compuni@maker272 MINGW64 ~/atividadefinaleron (main)
+$ rm -f ~/.ssh/id_rsa*
+
+compuni@maker272 MINGW64 ~/atividadefinaleron (main)
+$ rm -rf repositorio
+
+compuni@maker272 MINGW64 ~/atividadefinaleron (main)
+$
 
 ## Observações
 Cada etapa foi realizada por apenas um integrante por vez, respeitando a ordem de commits e a integridade do código.
