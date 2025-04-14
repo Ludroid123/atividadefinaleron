@@ -10,3 +10,11 @@ programa{
   escreva("\n", celsius, "°C equivalem a ", fahrenheit, "°F\n")
   escreva("\nDeseja converter outra temperatura? (S/N): ")
   leia(continuar)
+  repetir = falso
+  se (continuar == "S" ou continuar == "s") {
+  repetir = verdadeiro
+  }      
+  } enquanto (repetir)  
+  escreva("\nPrograma encerrado. Obrigado!\n")
+  }
+}
