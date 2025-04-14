@@ -12,19 +12,19 @@ Desenvolver um algoritmo para conversão de celsius para farenheint
 ## Etapas realizadas por cada membro
 
 ### Lucas Mello
--Iniciei o projeto criando um repositório no github
--Adicionei meus companheiros de equipe
--Fiz a configuração basica do gitbash
--adicionei minha chave ssh
--clonei o repositório
--fiz a primeira edição no arquivo read.me
--adicionei a primeira parte do portugol ja editada com as variáveis
--salvei as alterações com git add .
--dei um commit com o nome "parte1"
--finalmente dei um git push
--limpei meus rastros do computador
--continuei a segunda parte da edição do readme e instrui meus colegas de como fazer
--coloquei a parte executada por mim no terminal e dei outro commit mas pelo site dessa vez para edição do readme
+- Iniciei o projeto criando um repositório no github
+- Adicionei meus companheiros de equipe
+- Fiz a configuração basica do gitbash
+- adicionei minha chave ssh
+- clonei o repositório
+- fiz a primeira edição no arquivo read.me
+- adicionei a primeira parte do portugol ja editada com as variáveis
+- salvei as alterações com git add .
+- dei um commit com o nome "parte1"
+- finalmente dei um git push
+- limpei meus rastros do computador
+- continuei a segunda parte da edição do readme e instrui meus colegas de como fazer
+- coloquei a parte executada por mim no terminal e dei outro commit mas pelo site dessa vez para edição do readme
 
 ### Gustavo Kenzo Yokoda
 - Após ser adicionado no projeto fez a configuração basica do gitbash
