@@ -25,11 +25,12 @@ Desenvolver um algoritmo para conversão de celsius para farenheint
 - limpei meus rastros do computador
 - continuei a segunda parte da edição do readme e instrui meus colegas de como fazer
 - coloquei a parte executada por mim no terminal e dei outro commit mas pelo site dessa vez para edição do readme
+- fiz a terceira e ultima parte da edição do readme
 
 ### Gustavo Kenzo Yokoda
 - Após ser adicionado no projeto fez a configuração basica do gitbash
 - Clonou o repositório incial
-- Fez um git pull
+- Fez um git pull após o commit de lucas denominado parte1
 - Adicionou mais alguma variaveis
 - começou a parte do faça
 - definiu a formula de farenheint
@@ -38,13 +39,20 @@ Desenvolver um algoritmo para conversão de celsius para farenheint
 - commitou a parte2
 - deu um gitpush
 - (como o computador era de uso próprio nao foi preciso limpar os dados)
-- commmitei as alterações feitas no terminal, adicionando as no readme 
+- commmitou as alterações feitas no terminal, adicionando as no readme 
  
 
-### Beltrano Gomes 
-- Como Configurou o Git? não deixe exposto sua chave.
-- Fez `git pull` após o commit de Ciclana.
-- Finalizou o algoritmo com lógica . . .
+### Felipe Atsushi
+- Após ser adicionado no projeto fez a configuração basica do gitbash
+- Clonou o repositório incial
+- Fez um git pull após o commit de gustavo denominado parte2
+- Fez a finalização do código colocando alguns "se"
+- colocando algumas pontuações finais
+- testou o funcionamento do código final
+- salvou com git add .
+- commitou a parte3
+- deu um gitpush
+- limpou os rastros
 
 
 ## Comandos utilizados
@@ -175,6 +183,19 @@ Writing objects: 100% (4/4), 1.06 KiB | 1.06 MiB/s, done.
 Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
 To github.com:Ludroid123/atividadefinaleron.git
    c953009..7252cbd  main -> main
+
+compuni@maker27 MINGW64 ~/atividadefinaleron (main)
+$ rm -f ~/.ssh/id_rsa*
+
+compuni@maker27 MINGW64 ~/atividadefinaleron (main)
+$ git config --global --unset user.name
+
+compuni@maker27 MINGW64 ~/atividadefinaleron (main)
+$ git config --global --unset user.email
+
+compuni@maker27 MINGW64 ~/atividadefinaleron (main)
+$
+
 
 ### Comandos de Gustavo Kenzo Yokoda
 
