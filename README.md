@@ -38,6 +38,7 @@ Desenvolver um algoritmo para conversão de celsius para farenheint
 - commitou a parte2
 - deu um gitpush
 - (como o computador era de uso próprio nao foi preciso limpar os dados)
+- commmitei as alterações feitas no terminal, adicionando as no readme 
  
 
 ### Beltrano Gomes 
@@ -175,9 +176,126 @@ Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
 To github.com:Ludroid123/atividadefinaleron.git
    c953009..7252cbd  main -> main
 
-### Comandos de Ciclana
+### Comandos de Gustavo Kenzo Yokoda
 
-###
+gustavo@LAPTOP-0PUCHT45 MINGW64 ~
+$ git config --global --unset user.name
+
+gustavo@LAPTOP-0PUCHT45 MINGW64 ~
+$ git config --global --unset user.email
+
+gustavo@LAPTOP-0PUCHT45 MINGW64 ~
+$ ls -al ~/.ssh
+total 21
+drwxr-xr-x 1 gustavo 197121   0 Apr 14 19:31 ./
+drwxr-xr-x 1 gustavo 197121   0 Apr 14 19:36 ../
+-rw-r--r-- 1 gustavo 197121 828 Mar 31 19:55 known_hosts
+-rw-r--r-- 1 gustavo 197121  92 Mar 31 19:55 known_hosts.old
+
+gustavo@LAPTOP-0PUCHT45 MINGW64 ~
+$ rm -f ~/.ssh/id_rsa*
+
+gustavo@LAPTOP-0PUCHT45 MINGW64 ~
+$ git config --global user.name "Gustavo"
+
+gustavo@LAPTOP-0PUCHT45 MINGW64 ~
+$ git config --global user.email "gustavoyokoda30@edu.unifil.br"
+
+gustavo@LAPTOP-0PUCHT45 MINGW64 ~
+$ ssh-keygen -t rsa -b 4096 -C "gustavoyokoda30@edu.unifil.br"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/gustavo/.ssh/id_rsa):
+Enter passphrase for "/c/Users/gustavo/.ssh/id_rsa" (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/gustavo/.ssh/id_rsa
+Your public key has been saved in /c/Users/gustavo/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:JS5IUeZC2j4Xv7dmJyAmAm+i90z0/BRmN8HtGIfl3rA gustavoyokoda30@edu.unifil.br
+The key's randomart image is:
++---[RSA 4096]----+
+|    o.o     .    |
+|   + +   . =     |
+|  . + o . * =    |
+|.  o o + o B +   |
+| o  = o S + E .  |
+|. +..=o+.+ .     |
+|.o ..oo.o..      |
+|. .o   o .+..    |
+| . .o   .o.o     |
++----[SHA256]-----+
+
+gustavo@LAPTOP-0PUCHT45 MINGW64 ~
+$ eval "$(ssh-agent -s)"
+Agent pid 1853
+
+gustavo@LAPTOP-0PUCHT45 MINGW64 ~
+$ ssh-add ~/.ssh/id_rsa
+Identity added: /c/Users/gustavo/.ssh/id_rsa (gustavoyokoda30@edu.unifil.br)
+
+gustavo@LAPTOP-0PUCHT45 MINGW64 ~
+$ clip < ~/.ssh/id_rsa.pub
+
+gustavo@LAPTOP-0PUCHT45 MINGW64 ~
+$ ssh -T git@github.com
+Hi guyokoda30! You've successfully authenticated, but GitHub does not provide shell access.
+
+gustavo@LAPTOP-0PUCHT45 MINGW64 ~
+$ git clone git@github.com:Ludroid123/atividadefinaleron.git
+Cloning into 'atividadefinaleron'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+gustavo@LAPTOP-0PUCHT45 MINGW64 ~
+$ git pull origin main
+fatal: not a git repository (or any of the parent directories): .git
+
+gustavo@LAPTOP-0PUCHT45 MINGW64 ~
+$ cd atividadefinaleron
+
+gustavo@LAPTOP-0PUCHT45 MINGW64 ~/atividadefinaleron (main)
+$ git pull origin main
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 4 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (4/4), 1.04 KiB | 40.00 KiB/s, done.
+From github.com:Ludroid123/atividadefinaleron
+ * branch            main       -> FETCH_HEAD
+   c953009..7252cbd  main       -> origin/main
+Updating c953009..7252cbd
+Fast-forward
+ README.md     | 50 +++++++++++++++++++++++++++++++++++++++++++++++++-
+ README.md.bak |  1 +
+ eronfinal.por |  3 +++
+ 3 files changed, 53 insertions(+), 1 deletion(-)
+ create mode 100644 README.md.bak
+ create mode 100644 eronfinal.por
+
+gustavo@LAPTOP-0PUCHT45 MINGW64 ~/atividadefinaleron (main)
+$ git add .
+
+gustavo@LAPTOP-0PUCHT45 MINGW64 ~/atividadefinaleron (main)
+$ git commit -m "Parte2"
+[main 1aeab08] Parte2
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+
+gustavo@LAPTOP-0PUCHT45 MINGW64 ~/atividadefinaleron (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 468 bytes | 468.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:Ludroid123/atividadefinaleron.git
+   7252cbd..1aeab08  main -> main
+
+gustavo@LAPTOP-0PUCHT45 MINGW64 ~/atividadefinaleron (main)
+$
+
 
 ### Comandos de beltrano
 
